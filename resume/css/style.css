@@ -1,0 +1,106 @@
+:root 
+{
+    --uncblue: RGB(1,45,91);
+    --uncgold: RGB(254,189,54);
+    --uncgray: RGB(235,235,235);
+    --uncsand: RGB(255,239,204);
+
+    background-color: var(--uncsand);
+}
+
+h1
+{
+    font-size: 48px;
+    text-align: center;
+    color:cornflowerblue
+}
+
+img
+{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    
+
+}
+
+ul li 
+{
+    font-weight: bold;
+}
+
+.footertext
+{
+    display:block;
+    margin-top: 200px;
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+    color:lightgreen;
+    font-style: italic;
+    font-size: 25pt;
+    margin: 10px;
+
+}
+h2 + p
+{
+    text-align: center;
+}
+
+h2 + p + a
+{
+    text-align: center;
+    display: block;
+    color:crimson;
+}
+nav li
+{
+    display: inline;
+    margin: 10px;
+}
+nav ul
+{
+    text-align: center;
+    padding: 0px;
+}
+nav
+{
+    text-align: center;
+    border: 5px solid var(--uncgold);
+}
+.date
+{
+    color: var(--uncgold);
+    font-weight:bold;
+    font-size: 20pt;
+    list-style-type: none;
+}
+.major, .minor
+{
+    font-size: 10pt;
+}
+.minor
+{
+    font-style: italic;
+}
+.title
+{
+    font-size: 10pt;
+}
+.location
+{
+    font-size:15pt ;
+}
+.entry
+{
+    background-color:lightcoral;
+    color: white;
+    border: 5px solid cornflowerblue;
+    margin-top: 30px;
+}
